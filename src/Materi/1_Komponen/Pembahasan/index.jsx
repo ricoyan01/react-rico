@@ -1,6 +1,6 @@
 import React from "react";
-import ClassComponent from "./Pembahasan/ClassCompnent";
-import FunctionalComponent from "./Pembahasan/FunctionalComponent";
+import ClassComponent from "./ClassCompnent";
+import FunctionalComponent from "./FunctionalComponent";
 
 export default class Komponen extends React.Component {
 
