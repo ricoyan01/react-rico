@@ -3,11 +3,13 @@ section {
 }
 
 h1 {
-	text-decoration: white;
+	text-decoration: #0000ff;
+	text-align: center;
 }
 
 h2{
 	text-decoration: blue;
+	color: aqua;
 }
 
 #hero-section {

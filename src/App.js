@@ -1,9 +1,10 @@
-import Form from "./Materi/Form";
+import React from 'react';
+import Berita from './Materi/News';
 
 function App() {
   return (
     <div className="App">
-      <Form/>
+      <Berita />
     </div>
   );
 }
