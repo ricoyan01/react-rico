@@ -34,7 +34,7 @@ export class News extends Component {
   fetchArticles() {
     this.setState({ loading: true });
 
-    fetch('https://newsapi.org/v2/everything?q=Apple&from=2023-09-10&sortBy=popularity&apiKey=0d00d426d2ae4f07afb272e0b41ea809')
+    fetch('https://newsapi.org/v2/everything?q=Sport&from=2023-09-01&sortBy=popularity&apiKey=0d00d426d2ae4f07afb272e0b41ea809')
       .then(response => response.json())
       .then(data => {
         this.setState({
