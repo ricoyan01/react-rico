@@ -76,7 +76,7 @@ export class News extends Component {
         />
         <div className="row">
           {}
-          {this.state.filteredArticles.map(element => (
+          {this.state?.filteredArticles?.map(element => (
             <div className="col-md-4" key={element.url}>
               <NewsUpdate
                 title={element.title}
